@@ -15,7 +15,7 @@ export class WebSpeechComponent implements OnInit {
   finalTranscript = '';
   recognizing = false;
   notification: string;
-  languages: string[] =  ['en-US', 'es-ES'];
+  languages: string[] =  ['en-US', 'de-DE'];
   currentLanguage: string;
   actionContext: ActionContext = new ActionContext();
 
